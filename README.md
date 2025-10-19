@@ -3,13 +3,18 @@
 ## Execution
 
 To run tests:
-```bash
+```shell
 rspec
 ```
 
 To run test execution task:
-```bash
+```shell
 bundle exec rake
+```
+
+To benchmark all sorts against each other:
+```shell
+bundle exec rake benchmark
 ```
 
 ## Description

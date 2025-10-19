@@ -9,3 +9,8 @@ RSpec::Core::RakeTask.new(:spec) do |t|
 end
 
 task default: :spec
+
+desc "Run benchmark"
+task :benchmark do
+  ruby 'benchmarks/compare.rb'
+end
