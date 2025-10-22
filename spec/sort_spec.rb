@@ -1,6 +1,7 @@
 require 'spec_helper'
 require_relative '../lib/bubble_sort'
 require_relative '../lib/insertion_sort'
+require_relative '../lib/selection_sort'
 
 RSpec.shared_examples 'A Sort module' do
   context 'when given a basic array' do
@@ -48,5 +49,10 @@ end
 
 RSpec.describe InsertionSort do
   subject { InsertionSort }
+  include_examples 'A Sort module'
+end
+
+RSpec.describe SelectionSort do
+  subject { SelectionSort }
   include_examples 'A Sort module'
 end

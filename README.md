@@ -30,7 +30,7 @@ The idea is to *at least* implement:
 - [X] Bubble Sort
 - [ ] Merge Sort
 - [ ] Quick Sort
-- [ ] Selection Sort
+- [X] Selection Sort
 - [X] Insertion Sort
 
 ### Ruby Structure
