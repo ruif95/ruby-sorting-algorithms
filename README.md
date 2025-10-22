@@ -26,12 +26,12 @@ This repository serves two purposes:
 ### Algos
 
 The idea is to *at least* implement:
-- Heap Sort
-- Bubble Sort
-- Merge Sort
-- Quick Sort
-- Selection Sort
-- Insertion Sort
+- [ ] Heap Sort
+- [X] Bubble Sort
+- [ ] Merge Sort
+- [ ] Quick Sort
+- [ ] Selection Sort
+- [X] Insertion Sort
 
 ### Ruby Structure
 
